@@ -48,7 +48,7 @@
 //     background-color: var(--nox-accent);
 // }
 
-.listItem-2P_4kh .circleIconButton-jET_ig::after,
+.listItem-GuPuDH .circleIconButton-jET_ig::after,
 .wrapper-1BJsBx .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     content: "";
     display: block;
@@ -60,7 +60,7 @@
     transition: background 200ms ease;
 }
 
-.listItem-2P_4kh .circleIconButton-jET_ig.selected-ugP_am::after,
+.listItem-GuPuDH .circleIconButton-jET_ig.selected-ugP_am::after,
 .wrapper-1BJsBx.selected-wSa2KV .childWrapper-anI2G9:not(.acronym-2mOFsV)::after {
     background: var(--nox-accent);
 }
@@ -69,7 +69,7 @@
 
 
 // Separator
-.listItem-2P_4kh.bd-guild-separator {
+.listItem-GuPuDH.bd-guild-separator {
     margin: 4px 0;
     display: none;
     height: 2px
@@ -79,10 +79,10 @@
     background: var(--nox-white1);
 }
 
-// .listItem-2P_4kh:not(.scroller-2TZvBN > :first-child)
+// .listItem-GuPuDH:not(.scroller-2TZvBN > :first-child)
 
 // Guilds/List Items
-.listItem-2P_4kh {
+.listItem-GuPuDH {
     width: 70px;
     margin: 0;
 }
@@ -90,12 +90,12 @@
 // Prevent moving down on click
 .blob-1PX1Gp:active, // home button
 .blob-3RT82C:active, // dms
-.listItem-2P_4kh .blobContainer-239gwq:active {
+.listItem-GuPuDH .blobContainer-239gwq:active {
     transform: none;
 }
 
 // Expands wrapper to increase clicking area
-.listItem-2P_4kh .wrapper-25eVIn {
+.listItem-GuPuDH .wrapper-25eVIn {
     height: 70px;
     width: 70px;
     display: flex;
@@ -104,12 +104,12 @@
 }
 
 // Expands svg area to increase clicking area
-.listItem-2P_4kh .svg-1X37T1 {
+.listItem-GuPuDH .svg-1X37T1 {
     position: relative;
 // }
 
 
-// .listItem-2P_4kh .blobContainer-239gwq .svg-1X37T1 {
+// .listItem-GuPuDH .blobContainer-239gwq .svg-1X37T1 {
     width: 100%;
     height: 100%;
 }
@@ -127,11 +127,11 @@
     border-radius: 50%;
 }
 
-.listItem-2P_4kh .acronym-2mOFsV {
+.listItem-GuPuDH .acronym-2mOFsV {
     background: var(--nox-level2);
 }
 
-.listItem-2P_4kh .selected-bZ3Lue .acronym-2mOFsV {
+.listItem-GuPuDH .selected-bZ3Lue .acronym-2mOFsV {
     background: var(--nox-accent);
 }
 
@@ -147,7 +147,7 @@
 }
 
 // sets up blank pill item
-.listItem-2P_4kh .item-2hkk8m {
+.listItem-GuPuDH .item-2hkk8m {
     box-sizing: border-box;
     background: none;
     margin: 0;
@@ -158,7 +158,7 @@
 }
 
 // sets up notification ring
-.listItem-2P_4kh .item-2hkk8m::before {
+.listItem-GuPuDH .item-2hkk8m::before {
     content: "";
     display: block;
     box-sizing: border-box;
@@ -184,22 +184,22 @@
 }
 
 // hover bg
-.listItem-2P_4kh:hover .item-2hkk8m::after {
+.listItem-GuPuDH:hover .item-2hkk8m::after {
     background: var(--nox-white1);
 }
 
 // active bg
-.listItem-2P_4kh:active .item-2hkk8m::after {
+.listItem-GuPuDH:active .item-2hkk8m::after {
     background: var(--nox-black2);
 }
 
 // unread ring
-.listItem-2P_4kh.bd-unread .item-2hkk8m::before {
+.listItem-GuPuDH.bd-unread .item-2hkk8m::before {
     border-color: var(--nox-notification-color);
 }
 
 // selected bg
-.listItem-2P_4kh.bd-selected .item-2hkk8m::after {
+.listItem-GuPuDH.bd-selected .item-2hkk8m::after {
     background: var(--nox-black5);
 }
 
@@ -327,18 +327,18 @@
     left: 5px;
 }
 
-.wrapper-21YSNc ul .listItem-2P_4kh:last-child .item-2hkk8m::after {
+.wrapper-21YSNc ul .listItem-GuPuDH:last-child .item-2hkk8m::after {
     border-radius: 0 0 30px 30px;
     height: 62px;
 }
 
 // active bg
-.wrapper-21YSNc ul .listItem-2P_4kh:active .item-2hkk8m::after {
+.wrapper-21YSNc ul .listItem-GuPuDH:active .item-2hkk8m::after {
     background: var(--nox-black5);
 }
 
 // selected bg
-.wrapper-21YSNc ul .listItem-2P_4kh.bd-selected .item-2hkk8m::after {
+.wrapper-21YSNc ul .listItem-GuPuDH.bd-selected .item-2hkk8m::after {
     background: var(--nox-black8);
 }
 
@@ -366,8 +366,8 @@
     transform-origin: 0 0;
 }
 
-.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-2P_4kh {opacity: 0;}
-.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-2P_4kh {
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-GuPuDH {opacity: 0;}
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-GuPuDH {
     animation: fade-in 200ms ease-out;
     animation-delay: 200ms;
     transform-origin: 0 0;
@@ -375,6 +375,6 @@
 }
 
 
-.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-2P_4kh + div {
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) + .listItem-GuPuDH + div {
     height: unset!important;
 }
